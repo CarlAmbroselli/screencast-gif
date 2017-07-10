@@ -2,9 +2,11 @@
 
 A commandline tool to convert SCREENCAST.mov into ANIMATED.gif
 
+![screencast](https://i.imgur.com/nKeb83U.gif)
+
 ### Run directly
 
-```
+```bash
 docker run -it -v `pwd`:/srv/screengif/input --rm ambroselli/screencast-gif /bin/bash \
     -c 'umask 002; bin/screengif -i input/file.mov -o input/file.gif'
 ```
@@ -29,6 +31,9 @@ docker run -it \
 ```
 
 Then I run it using `screencast file.mov`.
+
+### Upload to imgur
+You can use [this script](https://github.com/tremby/imgur.sh) to upload the resuling gif to imgur and get a linkable url with one one command.
 
 #### Thanks
 Heavily based on [screengif](https://github.com/dergachev/screengif).
