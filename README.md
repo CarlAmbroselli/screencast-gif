@@ -1,4 +1,4 @@
-# Screengif
+# Screencast-gif
 
 Turn a .mov file to a .gif file using docker fully transparently.
 
