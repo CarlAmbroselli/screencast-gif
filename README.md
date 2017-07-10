@@ -1,6 +1,6 @@
 # Screengif
 
-A commandline tool to convert SCREENCAST.mov into ANIMATED.gif
+Turn a .mov file to a .gif file using docker fully transparently.
 
 ![screencast](https://i.imgur.com/nKeb83U.gif)
 
